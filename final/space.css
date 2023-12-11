@@ -1,0 +1,107 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: #94b0c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+#logo{
+    width:50%;
+}
+#para {
+    border: 4px inset white;
+    background-color: #38596e;
+    max-width: 400px;
+    padding: 20px;
+    color: white;
+    margin: 0 auto;
+}
+#button {
+    margin: 20px;
+    border: 4px inset white;
+    background-color: goldenrod;
+}
+#button img{
+    width: 100px;
+}
+
+.results{
+    color:black;
+    margin-left:20px;
+}
+p{
+    color:black;
+}
+
+.container {
+    display: flex;
+}
+
+.left-column {
+    flex: 1;
+    text-align: center;
+    padding: -5px;
+}
+
+.results {
+    margin-bottom: 10px;
+}
+
+#start {
+    margin-top: 20px;
+}
+.grid-container {
+    text-align: center;
+}
+
+.grid {
+    width: 600px;
+    height: 600px;
+    border: inset #ffff 5px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('./images/bkgd.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+}
+
+.invader {
+    background-image: url('images/seagull2.png');
+    background-size: cover;
+    width: 80px;
+    height: 40px;
+}
+
+.shooter {
+    background-image: url('images/player.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.laser {
+    background-image: url('images/croissant.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+.seagull-projectile {
+    background-image: url('images/rock.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+
+.boom {
+    background-image: url('images/bang.gif');
+}
