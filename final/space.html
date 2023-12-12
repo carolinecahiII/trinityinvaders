@@ -4,28 +4,24 @@
 <head>
     <title>Trinity Invaders</title>
     <link rel="stylesheet" href="space.css">
-    <style>
-
-    </style>
 </head>
 
 <body>
     <audio id="hitSound" src="squawk.m4a"></audio>
-    <audio id="hitSound" src="gameover.m4a"></audio>
+    <audio id="gameOverSound" src="gameover.m4a"></audio>
     <div class="container">
         <div class="left-column">
-          <img src="images/kvant.png" id="logo" />
+            <img src="images/kvant.png" id="logo" />
             <h1 class="results">0</h1>
             <div id="start">
-                
-                  <p id="para">Trinity College Dublin is being occupied by an evil force:
+                <p id="para">Trinity College Dublin is being occupied by an evil force:
                     <strong>enormous, bloodthirsty seagulls</strong> with a hunger that can only be sated by
                     <strong> guzzling stolen student lunches.</strong><br><br>
                     <strong>Defend yourself AND your peaceful lunch break</strong> by firing <strong>stale croissants</strong>
                     at these winged fiends, but watch out for the <strong>loose cobblestones</strong> they throw back!
-                
                 </p>
                 <button id="button" onclick="init()"><img src="images/start2.png"></button>
+                <button id="resetButton" onclick="resetGame()"><img src="images/reset.png"></button>
             </div>
         </div>
 
