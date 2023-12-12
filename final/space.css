@@ -27,7 +27,14 @@ body {
 #button img{
     width: 100px;
 }
-
+#resetButton img{
+    width: 100px;
+}
+#resetButton{
+    margin: 20px;
+    border: 4px inset white;
+    background-color: goldenrod;
+}
 .results{
     color:black;
     margin-left:20px;
